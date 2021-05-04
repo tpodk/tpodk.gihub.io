@@ -1,0 +1,76 @@
+body {
+  font-family: "Kanit", sans-serif;
+}
+
+.about {
+  font-size: 18px;
+  font-weight: 400;
+  color: rgb(255, 183, 0);
+  margin-bottom: 20px;
+}
+
+.avata {
+  width: 200px;
+  height: 200px;
+  margin-bottom: 40px;
+  border-radius: 50%;
+  object-fit: cover;
+  box-shadow: 10px 10px 10px 0px black;
+}
+
+.button {
+  background-color: black;
+  color: white;
+  padding: 7px 25px;
+  text-decoration: none;
+  border-radius: 50px;
+}
+
+.button:hover {
+  background-color: red;
+}
+
+.container {
+  background-image: linear-gradient(
+      to right,
+      rgba(255, 255, 255, 0.1),
+      rgba(255, 255, 255, 0.7)
+    ),
+    url("https://images.unsplash.com/photo-1619705597815-a60e1d5f410a?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=1498&q=80");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: button left;
+  min-height: 100vh;
+  padding: 128px;
+}
+
+@media screen and (max-width: 768px) {
+  .container {
+    padding: 40px;
+  }
+}
+
+.content {
+  max-width: 500px;
+}
+
+.contact {
+  margin-bottom: 40px;
+}
+
+.contact-icon {
+  padding-right: 10px;
+  width: 25px;
+}
+
+.job {
+  font-size: 16px;
+  text-transform: uppercase;
+  margin-bottom: 24px;
+}
+
+.name {
+  font-size: 48px;
+  text-transform: uppercase;
+  margin-bottom: 8px;
+}
